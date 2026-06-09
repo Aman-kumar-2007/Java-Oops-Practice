@@ -11,7 +11,6 @@ Create an object and display all details.
 
 */
 
-
 public class Car {
     String brand = "Nano";
     String model = "0104";
