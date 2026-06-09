@@ -11,6 +11,7 @@ price
 Initialize values using a constructor.
 
  */
+
 public class Laptop {
     String brand;
     int price;
