@@ -40,6 +40,17 @@ class Patient{
     }
 }
 
+class Appointment {
+
+    int appointmentId;
+    String doctorName;
+
+    Appointment(int appointmentId, String doctorName) {
+        this.appointmentId = appointmentId;
+        this.doctorName = doctorName;
+    }
+}
+
 class Doctor {
     void consultationFee() {
         System.out.println("Consultation Fee");
@@ -77,32 +88,37 @@ public class Hospital {
         d1.consultationFee();
         d2.consultationFee();
 
-        ArrayList<String> appointments = new ArrayList<>();
+        ArrayList<Appointment> history = new ArrayList<>();
 
-        appointments.add("Appointment ID: 1");
-        appointments.add("Appointment ID: 2");
-        appointments.add("Appointment ID: 3");
+        history.add(new Appointment(1, "General"));
+        history.add(new Appointment(2, "Specialist"));
+        history.add(new Appointment(3, "General"));
 
-        System.out.println("Appointment History:");
-        for(String a : appointments){
-            System.out.println(a);
+        System.out.println("\nAppointment History");
+
+        for (Appointment a : history) {
+            System.out.println("ID: " + a.appointmentId +
+                    " Doctor: " + a.doctorName);
         }
 
-        int appointmentId = -5;
+        // Exception Handling
+        int searchId = -5;
 
         try {
-            if(appointmentId < 0){
+
+            if (searchId <= 0) {
                 throw new Exception("Invalid Appointment ID");
             }
 
-        } catch(Exception e){
+        } catch (Exception e) {
 
             System.out.println(e.getMessage());
 
         } finally {
 
-            System.out.println("Appointment Verification Completed");
+            System.out.println("Verification Completed");
         }
+
     }
 
 
