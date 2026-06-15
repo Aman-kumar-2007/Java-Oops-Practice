@@ -16,6 +16,7 @@ Metro
 Override fare().
 
  */
+
 class Vehicle {
 
     void fare() {
