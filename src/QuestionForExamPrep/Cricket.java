@@ -1,5 +1,17 @@
 package QuestionForExamPrep;
+/*
+Cricket Tournament System
 
+Store names and runs scored by 5 players using an array of objects.
+
+Display:
+
+
+All player details
+Highest scorer
+Average runs
+
+ */
 class Player{
     String playerName;
     int runs;
