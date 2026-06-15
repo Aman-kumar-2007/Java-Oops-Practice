@@ -14,29 +14,45 @@ Demonstrate constructor overloading.
 Assign default values where required.
         */
 
-public class Company {
+public class Employees {
     String name;
     String dept;
     int salary;
 
-    Company(String name){
+    Employees(String name){
         this.name = name;
         this.dept = "General";
         this.salary = 0;
     }
 
-    Company(String name,String dept){
+    Employees(String name, String dept){
         this.name = name;
         this.dept = dept;
         this.salary = 0;
     }
 
-    Company(String name,String dept,int sal){
+    Employees(String name, String dept, int sal){
         this.name = name;
         this.dept = dept;
         this.salary = sal;
     }
 
+    void display() {
+        System.out.println(name + " " + dept + " " + salary);
+    }
+
+    public static void main(String[] args){
+        Employees e1 = new Employees("Aman");
+        Employees e2 = new Employees("Aman","Software development");
+        Employees e3 = new Employees("Aman","Software development",99000);
+
+
+        e1.display();
+        e2.display();
+        e3.display();
+
+
+    }
 
 
 }
