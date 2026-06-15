@@ -1,5 +1,24 @@
 package MixQues;
 
+/*
+Movie Streaming Platform (10 Marks)
+
+A movie platform provides:
+
+Free Plan
+Premium Plan
+Family Plan
+
+Requirements:
+
+User details should be encapsulated.
+Different plans calculate subscription cost differently.
+Watch history should be stored.
+Invalid subscription requests should be handled using exception handling.
+
+Develop a Java program satisfying all requirements.
+
+ */
 import java.util.ArrayList;
 
 class User{
