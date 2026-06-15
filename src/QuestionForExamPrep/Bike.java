@@ -25,5 +25,16 @@ public class Bike extends Booking {
         return dist * 10;
     }
 
+    public static void main(String[] args){
+        Booking b;
+
+        b = new Bike();
+        System.out.println(b.CalculateFair(45));
+        b = new Sedan();
+        System.out.println(b.CalculateFair(45));
+        b = new Mini();
+        System.out.println(b.CalculateFair(45));
+
+    }
 
 }
