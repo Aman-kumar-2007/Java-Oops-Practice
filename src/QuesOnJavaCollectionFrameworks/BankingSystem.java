@@ -1,4 +1,4 @@
-package QuestionsOnJavaCollectionFrameworks;
+package QuesOnJavaCollectionFrameworks;
 
 /*
 
