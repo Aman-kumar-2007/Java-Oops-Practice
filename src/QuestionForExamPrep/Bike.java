@@ -1,4 +1,16 @@
 package QuestionForExamPrep;
+/*
+Online Cab Booking Platform (Case Study)
+
+An online cab booking application offers different types of rides such as Bike, Mini, and Sedan. Every ride calculates fare differently based on distance travelled.
+
+Answer the following:
+
+a) Which OOP concept is most suitable to model this requirement? Justify your answer. (2 Marks)
+
+b) Write a Java program demonstrating this concept using a superclass and three subclasses that calculate fare differently. (3 Marks)
+
+ */
 
 abstract class Booking{
     int CalculateFair(int dist) {
