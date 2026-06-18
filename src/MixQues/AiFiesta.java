@@ -246,7 +246,7 @@ public class AiFiesta {
 
 
         // Remaining Tokens
-        System.out.println("\nAman Tokens : " + u1.getAvailableTokens());
+//        System.out.println("\nAman Tokens : " + u1.getAvailableTokens());
 
         System.out.println("Rahul Tokens : " + u2.getAvailableTokens());
 
