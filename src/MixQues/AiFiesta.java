@@ -212,11 +212,11 @@ public class AiFiesta {
         AiFiesta app = new AiFiesta();
 
         // Register Users
-        AiUser u1 = new AiUser("Aman");
+//        AiUser u1 = new AiUser("Aman");
         AiUser u2 = new AiUser("Rahul", "rahul@gmail.com");
         AiUser u3 = new AiUser("Priya", "priya@gmail.com", "Pro");
 
-        app.registeredUsers.put(u1.getUserName(), u1);
+//        app.registeredUsers.put(u1.getUserName(), u1);
 
         app.registeredUsers.put(u2.getUserName(), u2);
 
