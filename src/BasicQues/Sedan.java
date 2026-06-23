@@ -1,5 +1,25 @@
 package BasicQues;
 
+/*
+
+Q1. Ride Sharing Platform (Case Study)
+
+A ride-sharing application offers different ride categories:
+
+Bike
+Mini
+Sedan
+
+Each ride calculates fare differently.
+
+Answer the following:
+
+a) Which OOP concept is demonstrated here? Justify your answer. (2 Marks)
+ a- ans  = Runtime Polymorphism (Method Overriding)
+
+b) Write a Java program using a superclass Ride and subclasses BikeRide, MiniRide and SedanRide that override calculateFare(). (3 Marks)
+
+ */
 
 abstract class RideSharing{
     abstract int calculateFare(int dist);
@@ -18,7 +38,6 @@ class Mini extends RideSharing{
         return 20*dist;
     }
 }
-
 
 
 public class Sedan extends RideSharing {
