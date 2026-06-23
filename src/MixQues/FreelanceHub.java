@@ -176,7 +176,7 @@ public class FreelanceHub {
     HashMap<Integer, Double> earningsRecord = new HashMap<>();
 
     public void assignProject(int freelancerId, Project project
-    ) throws InsufficientCreditsException{
+    ) throws InsufficientCreditsException {
 
         Freelancer f = registeredFreelancers.get(freelancerId);
 
