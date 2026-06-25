@@ -200,4 +200,8 @@ public class FreelanceHub {
         f.setTotalEarnings( f.getTotalEarnings() + cost);
     }
 
+    public static void main(String[] args){
+//        ??
+    }
+
 }
